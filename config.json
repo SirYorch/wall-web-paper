@@ -1,0 +1,9 @@
+{
+  "monitor": "HDMI-A-1",
+  "resolucion": {
+    "ancho": 1920,
+    "alto": 1080
+  },
+  "interactuable": true,
+  "carpeta": "./wallpaper"
+}

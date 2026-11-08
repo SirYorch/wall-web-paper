@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wall-Web-Paper</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="particle-canvas"></canvas>
+
+  <main class="hud-container">
+    <section class="glass-card">
+      <div class="status-badge">
+        <span class="pulse-dot"></span>
+        <span id="wayland-info">Wayland Layer Shell • Activo</span>
+      </div>
+
+      <h1 id="clock" class="clock">00:00:00</h1>
+      <p id="date" class="date">Cargando fecha...</p>
+
+      <div class="controls">
+        <button id="theme-btn" class="action-btn" type="button">
+          Cambiar Paleta
+        </button>
+        <button id="burst-btn" class="action-btn secondary" type="button">
+          Impulso de Partículas
+        </button>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
